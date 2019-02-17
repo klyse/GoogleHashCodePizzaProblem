@@ -2,7 +2,29 @@
 
 ## Startup
 
-Define `HashCodeWorkingDir` environment variable with path to input and output folder.
+Define `HashCodeWorkingDir` environment variable. Unit tests will look for input files at the given location.
+
+Input folder: `\input`.
+
+Solutions will be written to `\output` (created automatically).
+
+Example: `C:\Projects\GoogleHashCodePizzaProblem\Environment`
+
+```
+.
+├── input
+    ├── a_example.in
+    ├── b_small.in
+    ├── c_medium.in
+    └── d_big.in
+└── output
+    └── PizzaSolver2
+        ├── a_example.out
+        ├── b_small.out
+        ├── c_medium.out
+        └── d_big.out
+```
+
 
 ## Results
 
@@ -13,6 +35,8 @@ Define `HashCodeWorkingDir` environment variable with path to input and output f
 | medium    | 45585  |
 | big       | 800264 |
 | **TOTAL** | 845889 |
+
+The score can be checked in the unit test output.
 
 ## Authors
 VolkmarR: [@VolkmarR](https://github.com/VolkmarR/)
