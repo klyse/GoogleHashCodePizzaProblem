@@ -1,7 +1,7 @@
 using System.IO;
 using NUnit.Framework;
 
-namespace GoogleHashCode2019.Test
+namespace GoogleHashCodePizzaProblem.Test
 {
 	public class EnvironmentTests
 	{

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Linq;
 
-namespace GoogleHashCode2019.Base
+namespace GoogleHashCodePizzaProblem.Base
 {
 	public abstract class Input<T>
 	{

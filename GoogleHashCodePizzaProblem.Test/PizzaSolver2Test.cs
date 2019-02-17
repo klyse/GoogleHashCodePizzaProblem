@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.IO;
-using GoogleHashCode2019.Algorithms;
-using GoogleHashCode2019.Model;
+using GoogleHashCodePizzaProblem.Algorithms;
+using GoogleHashCodePizzaProblem.Model;
 using NUnit.Framework;
 
-namespace GoogleHashCode2019.Test
+namespace GoogleHashCodePizzaProblem.Test
 {
 	public class PizzaSolver2Test
 	{

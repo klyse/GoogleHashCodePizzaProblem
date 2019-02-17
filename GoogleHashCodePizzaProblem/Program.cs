@@ -1,8 +1,8 @@
 ﻿using System.IO;
-using GoogleHashCode2019.Algorithms;
-using GoogleHashCode2019.Model;
+using GoogleHashCodePizzaProblem.Algorithms;
+using GoogleHashCodePizzaProblem.Model;
 
-namespace GoogleHashCode2019
+namespace GoogleHashCodePizzaProblem
 {
 	public class Program
 	{

@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using GoogleHashCode2019.Base;
+using GoogleHashCodePizzaProblem.Base;
 using NeoMatrix;
 
-namespace GoogleHashCode2019.Model
+namespace GoogleHashCodePizzaProblem.Model
 {
 	public class PizzaInput : Input<PizzaInput>
 	{
@@ -42,6 +42,9 @@ namespace GoogleHashCode2019.Model
 					else
 						Matrix[row, j] = CellType.Mushroom;
 			}
+
+			PizzaOutput.Slice.TotalTomatoes = Matrix.GetFlat().Count(c => c == CellType.Tomato);
+			PizzaOutput.Slice.TotalMushrooms = Matrix.TotalCount - PizzaOutput.Slice.TotalTomatoes;
 
 			return this;
 		}

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace GoogleHashCode2019
+namespace GoogleHashCodePizzaProblem
 {
 	public static class EnvironmentConstants
 	{

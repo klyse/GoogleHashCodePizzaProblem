@@ -1,4 +1,4 @@
-﻿namespace GoogleHashCode2019.Base
+﻿namespace GoogleHashCodePizzaProblem.Base
 {
 	public abstract class Solver<TInput, TOutput> where TOutput : Output, new()
 	{
