@@ -2,7 +2,7 @@
 
 ## Startup
 
-Define `HashCodeWorkingDir` environment variable. Unit tests will look for input files at the given location.
+Define `HashCodePizzaWorkingDir` environment variable. Unit tests will look for input files at the given location.
 
 Input folder: `\input`.
 
